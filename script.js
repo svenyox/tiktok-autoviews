@@ -14,7 +14,7 @@
 // ==/UserScript==
 
 if (document.getElementsByClassName("form-control fireliker-style-text-mono text-warning").length > 0) {
-    $('input[placeholder="Username"]').val('YOUR_USERNAME'); //Change YOUR_USERNAME with your username
+    $('input[placeholder="Username"]').val('quotes.sven'); //Change quotes.sven with your username
     setTimeout(function () {
         lp();
     }, 2000);
